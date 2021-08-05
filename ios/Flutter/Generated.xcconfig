@@ -1,8 +1,8 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/admin/flutter
-FLUTTER_APPLICATION_PATH=/Users/admin/Desktop/im 测试/im/im
+FLUTTER_APPLICATION_PATH=/Users/admin/Desktop/im 测试/im/instant-messaging/instant-messaging
 COCOAPODS_PARALLEL_CODE_SIGN=true
-FLUTTER_TARGET=/Users/admin/Desktop/im 测试/im/im/lib/main.dart
+FLUTTER_TARGET=/Users/admin/Desktop/im 测试/im/instant-messaging/instant-messaging/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
 FLUTTER_BUILD_NAME=1.0.0
@@ -12,4 +12,4 @@ DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRU
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=true
 TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=/Users/admin/Desktop/im 测试/im/im/.dart_tool/package_config.json
+PACKAGE_CONFIG=/Users/admin/Desktop/im 测试/im/instant-messaging/instant-messaging/.dart_tool/package_config.json

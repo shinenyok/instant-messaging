@@ -50,18 +50,119 @@ class ChatView extends GetView<ChatController> {
               ),
               _chatBar(context),
               Obx(() => controller.showEmoji.value
-                  ? Container(
-                      color: Colors.cyanAccent,
-                      child: Text('表情'),
-                      height: 300,
+                  ? GestureDetector(
+                      onTap: () {},
+                      child: Stack(
+                        children: [
+                          Container(
+                            padding: EdgeInsets.all(16),
+                            color: Colors.white,
+                            child: GridView.builder(
+                              gridDelegate:
+                                  SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 7,
+                              ),
+                              itemBuilder: (context, index) {
+                                return TextButton(
+                                  onPressed: () {
+                                    print('------$index');
+                                  },
+                                  child: Image.asset(
+                                    'assets/emoji/sg$index.png',
+                                  ),
+                                );
+                              },
+                              itemCount: 179,
+                            ),
+                            height: 300,
+                          ),
+                          Positioned(
+                            right: 10,
+                            bottom: MediaQuery.of(context).padding.bottom + 10,
+                            child: Container(
+                              width: 160,
+                              height: 50,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Positioned(
+                              right: 10,
+                              bottom:
+                                  MediaQuery.of(context).padding.bottom + 10,
+                              child: Row(
+                                children: [
+                                  MaterialButton(
+                                    onPressed: () {},
+                                    child: Container(
+                                      width: 60,
+                                      height: 38,
+                                      color: Colors.white70,
+                                      alignment: Alignment.center,
+                                      child: Icon(
+                                        Icons.delete_forever,
+                                      ),
+                                    ),
+                                  ),
+                                  TextButton(
+                                    style: ButtonStyle(
+                                        backgroundColor:
+                                            MaterialStateProperty.all(
+                                      Colors.green,
+                                    )),
+                                    onPressed: () {},
+                                    child: Text('发送'),
+                                  ),
+                                ],
+                              ))
+                        ],
+                      ),
                     )
                   : SizedBox.shrink()),
               Obx(
                 () => controller.showMoreAction.value
                     ? Container(
-                        color: Colors.cyanAccent,
-                        child: Text('更多'),
-                        height: 300,
+                        color: Colors.white,
+                        child: GridView.builder(
+                          gridDelegate:
+                              SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 4,
+                          ),
+                          itemBuilder: (context, index) {
+                            String title = '';
+                            switch (index) {
+                              case 0:
+                                title = '相册';
+                                break;
+                              case 1:
+                                title = '拍照';
+                                break;
+                              case 2:
+                                title = '文件';
+                                break;
+                              case 3:
+                                title = '语音通话';
+                                break;
+                              case 4:
+                                title = '视频通话';
+                                break;
+                            }
+                            return TextButton(
+                              onPressed: () {},
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Container(
+                                    padding: const EdgeInsets.all(16.0),
+                                    child: Icon(Icons.title),
+                                  ),
+                                  Expanded(child: Text(title)),
+                                ],
+                              ),
+                            );
+                          },
+                          itemCount: 5,
+                        ),
+                        height: 240,
                       )
                     : SizedBox.shrink(),
               ),
