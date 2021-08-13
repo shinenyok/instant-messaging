@@ -1,15 +1,19 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
+import 'package:extended_text_field/extended_text_field.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:im/app/data/conversation_model.dart';
+import 'package:im/app/modules/chat/views/emoji_text.dart';
+import 'package:im/app/modules/chat/views/my_special_text_span_builder.dart';
 import 'package:im/app/modules/home/controllers/home_controller.dart';
 import '../controllers/chat_controller.dart';
 
 class ChatView extends GetView<ChatController> {
   final HomeController homeController = Get.find<HomeController>();
   final FocusNode _focusNode = FocusNode();
+  final MySpecialTextSpanBuilder _builder = MySpecialTextSpanBuilder();
 
   @override
   Widget build(BuildContext context) {
@@ -66,13 +70,14 @@ class ChatView extends GetView<ChatController> {
                                 return TextButton(
                                   onPressed: () {
                                     print('------$index');
+                                    controller.editingController.text = controller.editingController.text + '[$index]';
                                   },
                                   child: Image.asset(
-                                    'assets/emoji/sg$index.png',
+                                    EmojiUitl.instance.emojiMap.values.toList()[index],
                                   ),
                                 );
                               },
-                              itemCount: 179,
+                              itemCount: EmojiUitl.instance.emojiMap.length,
                             ),
                             height: 300,
                           ),
@@ -86,34 +91,34 @@ class ChatView extends GetView<ChatController> {
                             ),
                           ),
                           Positioned(
-                              right: 10,
-                              bottom:
-                                  MediaQuery.of(context).padding.bottom + 10,
-                              child: Row(
-                                children: [
-                                  MaterialButton(
-                                    onPressed: () {},
-                                    child: Container(
-                                      width: 60,
-                                      height: 38,
-                                      color: Colors.white70,
-                                      alignment: Alignment.center,
-                                      child: Icon(
-                                        Icons.delete_forever,
-                                      ),
+                            right: 10,
+                            bottom: MediaQuery.of(context).padding.bottom + 10,
+                            child: Row(
+                              children: [
+                                MaterialButton(
+                                  onPressed: () {},
+                                  child: Container(
+                                    width: 60,
+                                    height: 38,
+                                    color: Colors.white70,
+                                    alignment: Alignment.center,
+                                    child: Icon(
+                                      Icons.delete_forever,
                                     ),
                                   ),
-                                  TextButton(
-                                    style: ButtonStyle(
-                                        backgroundColor:
-                                            MaterialStateProperty.all(
-                                      Colors.green,
-                                    )),
-                                    onPressed: () {},
-                                    child: Text('发送'),
-                                  ),
-                                ],
-                              ))
+                                ),
+                                TextButton(
+                                  style: ButtonStyle(
+                                      backgroundColor:
+                                          MaterialStateProperty.all(
+                                    Colors.green,
+                                  )),
+                                  onPressed: () {},
+                                  child: Text('发送'),
+                                ),
+                              ],
+                            ),
+                          )
                         ],
                       ),
                     )
@@ -195,9 +200,11 @@ class ChatView extends GetView<ChatController> {
                 minHeight: 40,
               ),
               color: Colors.white,
-              child: TextField(
+              child: ExtendedTextField(
                 maxLines: 5,
                 minLines: 1,
+                controller: controller.editingController,
+                specialTextSpanBuilder: _builder,
                 textInputAction: TextInputAction.send,
                 focusNode: _focusNode,
                 onTap: () {
@@ -225,7 +232,7 @@ class ChatView extends GetView<ChatController> {
                   isDense: true,
                   border: InputBorder.none,
                   prefix: SizedBox(
-                    width: 6,
+                    width: 10,
                   ),
                   suffix: SizedBox(
                     width: 6,

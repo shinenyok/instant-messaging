@@ -13,6 +13,10 @@ dependencies:
   sqflite: ^1.3.0
   shared_preferences: ^2.0.6
   protoc_plugin: 20.0.0
+  contactor_picker: ^0.0.5
+  extended_text_field: ^8.0.0
+  rongcloud_im_plugin: any
+
   flutter: 
     sdk: flutter
 dev_dependencies:

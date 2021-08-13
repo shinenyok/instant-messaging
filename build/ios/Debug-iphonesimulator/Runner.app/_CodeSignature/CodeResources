@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		QPd95cnU0bYEXQYVLfoVzXwrlks=
+		AGQdKDl0gmXSIUDqh9MMrqBhqa4=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Ig1l7jcv7qVfwVPD5mAHBQD/d0I=
+		XA+j/eGAg52eYiaXPabY1oZmeZA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES</key>
 		<data>
-		qBpcaySJfWDVeFkb8XSmHiGHe90=
+		Oo2gMu80guAydus1xDIBWkql0j8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/emoji/sg0.png</key>
 		<data>
@@ -902,7 +902,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		+leNCsKVCxhyC+98TWVl+gAC9qg=
+		oxUGx91tl+gS5Ylo1hkzlRLGadc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -996,6 +996,90 @@
 		<data>
 		GQZCpXMybn3RCh1MXi5WGSJg97k=
 		</data>
+		<key>Frameworks/RongChatRoom.framework/Info.plist</key>
+		<data>
+		Fincc2dKHGAuBJJ47LiHQhWlMJY=
+		</data>
+		<key>Frameworks/RongChatRoom.framework/RongChatRoom</key>
+		<data>
+		gyHASXchdORoK/49iejDexLUlCI=
+		</data>
+		<key>Frameworks/RongChatRoom.framework/_CodeSignature/CodeResources</key>
+		<data>
+		5SsYaFWlPbaP1cu3Gtu9MGqLYwo=
+		</data>
+		<key>Frameworks/RongCustomerService.framework/Info.plist</key>
+		<data>
+		HkagVVLA4rAinKMH5w3rWWyU7qo=
+		</data>
+		<key>Frameworks/RongCustomerService.framework/RongCustomerService</key>
+		<data>
+		LUbrkMZCUQKFhkHP2sAUwJF8m/A=
+		</data>
+		<key>Frameworks/RongCustomerService.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2tYbFuYyiyAqPCE+JlXmrA/6+8w=
+		</data>
+		<key>Frameworks/RongDiscussion.framework/Info.plist</key>
+		<data>
+		TQMZoHzQxb4T8QoBqrawCNNDsgo=
+		</data>
+		<key>Frameworks/RongDiscussion.framework/RongDiscussion</key>
+		<data>
+		3KPV+rvemkpbKRc6EdG/KWthl+4=
+		</data>
+		<key>Frameworks/RongDiscussion.framework/_CodeSignature/CodeResources</key>
+		<data>
+		lYfQY/bxxzQT/Kdh8dV/X4u96oU=
+		</data>
+		<key>Frameworks/RongIMLib.framework/Info.plist</key>
+		<data>
+		FQPsfFh+rFeELMirNWNTlVMAH/M=
+		</data>
+		<key>Frameworks/RongIMLib.framework/RongIMLib</key>
+		<data>
+		YoiZfauUp6F9QzmSkkUl2Jpw0O4=
+		</data>
+		<key>Frameworks/RongIMLib.framework/_CodeSignature/CodeResources</key>
+		<data>
+		+296ASi1xPwkVEd6H57dY9GtT4E=
+		</data>
+		<key>Frameworks/RongIMLibCore.framework/Info.plist</key>
+		<data>
+		LhOu06EDWTbWfb8Z7V47Jg14Yzk=
+		</data>
+		<key>Frameworks/RongIMLibCore.framework/RongIMLibCore</key>
+		<data>
+		o22qh/fECSGXVEMr0dCmWqj2gyA=
+		</data>
+		<key>Frameworks/RongIMLibCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		eJK9nBEDmTwF6LYAm7pAl0CBmyU=
+		</data>
+		<key>Frameworks/RongLocation.framework/Info.plist</key>
+		<data>
+		pbE/Q06EpuVh94X3X/4bh9nUtMk=
+		</data>
+		<key>Frameworks/RongLocation.framework/RongLocation</key>
+		<data>
+		UTKT63OSJ+vaouO9ad/gwR2sYAc=
+		</data>
+		<key>Frameworks/RongLocation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		XAqZORj7y7bfyD22QblXY+x+Ixs=
+		</data>
+		<key>Frameworks/RongPublicService.framework/Info.plist</key>
+		<data>
+		fChlmZfAm5UBhF34Wmc2eAgvdyI=
+		</data>
+		<key>Frameworks/RongPublicService.framework/RongPublicService</key>
+		<data>
+		QbjbMI+2kHmxXokKKTQlon3g3iE=
+		</data>
+		<key>Frameworks/RongPublicService.framework/_CodeSignature/CodeResources</key>
+		<data>
+		4fBAJvgxjcClPTXqfwC7mcwJkTc=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		1MH29aXNUlIfq3vjV1ot2zRhuO8=
@@ -1003,6 +1087,10 @@
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>RCConfig.plist</key>
+		<data>
+		tLLC4Uyo/ChnXw0e+qQoP2Aq2Rc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1297,11 +1385,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QPd95cnU0bYEXQYVLfoVzXwrlks=
+			AGQdKDl0gmXSIUDqh9MMrqBhqa4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FO047GpIvUBGHSC8uyuj9UarQJsI7R1wXzf4CdC5JEc=
+			G/sUi3H5w3PkvX8kYMv+8Pea+ldqmmxVB4yR5dsVHOE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -1319,11 +1407,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ig1l7jcv7qVfwVPD5mAHBQD/d0I=
+			XA+j/eGAg52eYiaXPabY1oZmeZA=
 			</data>
 			<key>hash2</key>
 			<data>
-			cmhYv9NGAz/reT1pKedHq18vUIRsRrWZAvLKnQ/7ZHk=
+			8bUcYpegmoM3ih+ZT6vqQu/JZ3gLFUrvdMPsfb+UpsY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -1352,11 +1440,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qBpcaySJfWDVeFkb8XSmHiGHe90=
+			Oo2gMu80guAydus1xDIBWkql0j8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dcCfJYHNifmblzXcBEK8mVXH/I2vLZPNe7+PTtRZ3l8=
+			YvIqyy9hmmRTYnX6OB1HkyS045pcQQJ4aBKmZoD+B8Y=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/emoji/sg0.png</key>
@@ -3475,11 +3563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+leNCsKVCxhyC+98TWVl+gAC9qg=
+			oxUGx91tl+gS5Ylo1hkzlRLGadc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFUzclNOXdc/QSbudUgLJvRfKg/ZuiWSU3yWbr6zf28=
+			VBcKo6Bva5ayrJvr9JAbWgOAaQk/Jx07h2mL8e3YFIw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -3733,6 +3821,248 @@
 			<key>hash2</key>
 			<data>
 			PxmoJrR/h+ORdYBLNxblG7h3l/244/4/McWAKWZ0TDY=
+			</data>
+		</dict>
+		<key>Frameworks/RongChatRoom.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fincc2dKHGAuBJJ47LiHQhWlMJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			YohPpr9KSh6XNx57gVp2lxLhzSoHqiDr9pyz6cmqSZs=
+			</data>
+		</dict>
+		<key>Frameworks/RongChatRoom.framework/RongChatRoom</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gyHASXchdORoK/49iejDexLUlCI=
+			</data>
+			<key>hash2</key>
+			<data>
+			cxRHBQbODEMAqIJZ6gzzu69ugii/Wp/7mnX3XcxK/r4=
+			</data>
+		</dict>
+		<key>Frameworks/RongChatRoom.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5SsYaFWlPbaP1cu3Gtu9MGqLYwo=
+			</data>
+			<key>hash2</key>
+			<data>
+			woGyiVmLXXsuk7sZTZqcbmVYkC1WKOHrRBkezL8LyDk=
+			</data>
+		</dict>
+		<key>Frameworks/RongCustomerService.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HkagVVLA4rAinKMH5w3rWWyU7qo=
+			</data>
+			<key>hash2</key>
+			<data>
+			sWwU+offSmgHgo7cSrszCczqCCGJz/C75useXWlioAM=
+			</data>
+		</dict>
+		<key>Frameworks/RongCustomerService.framework/RongCustomerService</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LUbrkMZCUQKFhkHP2sAUwJF8m/A=
+			</data>
+			<key>hash2</key>
+			<data>
+			WmnifBYlVpzWwgyTNBFzsnOCSq7omy0r+pRxGOEV1jA=
+			</data>
+		</dict>
+		<key>Frameworks/RongCustomerService.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2tYbFuYyiyAqPCE+JlXmrA/6+8w=
+			</data>
+			<key>hash2</key>
+			<data>
+			WE5gyNMOqE7qsqqwemnACTYVckfvA+JczDpd6tPeNuU=
+			</data>
+		</dict>
+		<key>Frameworks/RongDiscussion.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TQMZoHzQxb4T8QoBqrawCNNDsgo=
+			</data>
+			<key>hash2</key>
+			<data>
+			pMwmDn+u36vAn24rnmOXSkLqyv5k+9klvt9exNt8D8o=
+			</data>
+		</dict>
+		<key>Frameworks/RongDiscussion.framework/RongDiscussion</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3KPV+rvemkpbKRc6EdG/KWthl+4=
+			</data>
+			<key>hash2</key>
+			<data>
+			3imQtChnSTfoPSAPbtb7ImTtok7tsDSp1lwPrlFLPC4=
+			</data>
+		</dict>
+		<key>Frameworks/RongDiscussion.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lYfQY/bxxzQT/Kdh8dV/X4u96oU=
+			</data>
+			<key>hash2</key>
+			<data>
+			OAS9BQfWNdRdxze4bwxI9ttWrEspBnjKxwPXfwBQAq0=
+			</data>
+		</dict>
+		<key>Frameworks/RongIMLib.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FQPsfFh+rFeELMirNWNTlVMAH/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			s7oA9ai/FlRiYAfrffUsiWrBFkoOJjVfiBHbQrre9Pg=
+			</data>
+		</dict>
+		<key>Frameworks/RongIMLib.framework/RongIMLib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YoiZfauUp6F9QzmSkkUl2Jpw0O4=
+			</data>
+			<key>hash2</key>
+			<data>
+			RA6BlcyOKJuIRT3FfP4p3N3kKS3PbN4rEX+ABrZixxU=
+			</data>
+		</dict>
+		<key>Frameworks/RongIMLib.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+296ASi1xPwkVEd6H57dY9GtT4E=
+			</data>
+			<key>hash2</key>
+			<data>
+			twUN9uy0r/Jkv0iV61d/QPSkV145jKXrGIpMZqHDMLU=
+			</data>
+		</dict>
+		<key>Frameworks/RongIMLibCore.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LhOu06EDWTbWfb8Z7V47Jg14Yzk=
+			</data>
+			<key>hash2</key>
+			<data>
+			G7Dn3UOErLo0Lz/cA5WzTsfUZabioRfhqQsjP0etOIU=
+			</data>
+		</dict>
+		<key>Frameworks/RongIMLibCore.framework/RongIMLibCore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o22qh/fECSGXVEMr0dCmWqj2gyA=
+			</data>
+			<key>hash2</key>
+			<data>
+			NUd0z4D8FI1A1ZXhrLQoVnuQbC5RnRBSE3dt+SNV9X0=
+			</data>
+		</dict>
+		<key>Frameworks/RongIMLibCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eJK9nBEDmTwF6LYAm7pAl0CBmyU=
+			</data>
+			<key>hash2</key>
+			<data>
+			vXRT7uHdqCro6VPY/yLWTevkDeb+sEAPCzwKG7ykEw0=
+			</data>
+		</dict>
+		<key>Frameworks/RongLocation.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pbE/Q06EpuVh94X3X/4bh9nUtMk=
+			</data>
+			<key>hash2</key>
+			<data>
+			RripDtqeku+Lw+8mDeDspfIhchBsn36ZtGgW7+i+fOY=
+			</data>
+		</dict>
+		<key>Frameworks/RongLocation.framework/RongLocation</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UTKT63OSJ+vaouO9ad/gwR2sYAc=
+			</data>
+			<key>hash2</key>
+			<data>
+			94j/SfogygU4yDvLnUoL0shJMhPwN+xop26l1W+vl6k=
+			</data>
+		</dict>
+		<key>Frameworks/RongLocation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XAqZORj7y7bfyD22QblXY+x+Ixs=
+			</data>
+			<key>hash2</key>
+			<data>
+			uOfYRXYq+0WWC9oFAHr9KtLr1+caPc2aOvYE6zX5JBY=
+			</data>
+		</dict>
+		<key>Frameworks/RongPublicService.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fChlmZfAm5UBhF34Wmc2eAgvdyI=
+			</data>
+			<key>hash2</key>
+			<data>
+			BXo3AejFogJtf9uGaDiAGt7ddR//FdNGFnV5GWNeM2Q=
+			</data>
+		</dict>
+		<key>Frameworks/RongPublicService.framework/RongPublicService</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QbjbMI+2kHmxXokKKTQlon3g3iE=
+			</data>
+			<key>hash2</key>
+			<data>
+			vtQ785Wm3E9mS3C1jR4zdF+LhOxsGMxRqhjjU3aNwFQ=
+			</data>
+		</dict>
+		<key>Frameworks/RongPublicService.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4fBAJvgxjcClPTXqfwC7mcwJkTc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Td1Tp0xwNy9w02AwD8w07O573HN+IdQx/CEt7iD9glY=
+			</data>
+		</dict>
+		<key>RCConfig.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tLLC4Uyo/ChnXw0e+qQoP2Aq2Rc=
+			</data>
+			<key>hash2</key>
+			<data>
+			vw5hCzMW6KYUbA7UDYMWR4yCSd/1uDX8ljdaiOveDLs=
 			</data>
 		</dict>
 	</dict>

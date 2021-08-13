@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:im/app/util/web_socket_util.dart';
+import 'package:rongcloud_im_plugin/rongcloud_im_plugin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeController extends GetxController {
@@ -14,11 +15,13 @@ class HomeController extends GetxController {
   void onInit() {
     super.onInit();
     getStatus();
+    RongIMClient.init('8luwapkv8611l');
     WebSocketUtil().initWebSocket(onMessage: (message) {
       print('-----socketMessage----$message');
     }, onError: (error) {
       print('-----socketError----$error');
     });
+
   }
 
   void getStatus() async {

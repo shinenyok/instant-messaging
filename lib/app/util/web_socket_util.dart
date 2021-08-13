@@ -63,6 +63,7 @@ class WebSocketUtil {
   /// 开启WebSocket连接
   void openSocket() async {
     closeSocket();
+
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String uid = prefs.getString('uid') ?? '';
     String token = prefs.getString('token') ?? '';

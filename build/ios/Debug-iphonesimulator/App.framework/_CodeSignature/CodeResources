@@ -18,13 +18,9 @@
 		</data>
 		<key>flutter_assets/NOTICES</key>
 		<data>
-		qBpcaySJfWDVeFkb8XSmHiGHe90=
+		Oo2gMu80guAydus1xDIBWkql0j8=
 		</data>
 		<key>flutter_assets/assets/emoji/sg0.png</key>
-		<data>
-		BjvP2mQvMKf7GO558WbBxjSV8yY=
-		</data>
-		<key>flutter_assets/assets/emoji/sg031.png</key>
 		<data>
 		BjvP2mQvMKf7GO558WbBxjSV8yY=
 		</data>
@@ -794,7 +790,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		+leNCsKVCxhyC+98TWVl+gAC9qg=
+		oxUGx91tl+gS5Ylo1hkzlRLGadc=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -833,25 +829,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qBpcaySJfWDVeFkb8XSmHiGHe90=
+			Oo2gMu80guAydus1xDIBWkql0j8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dcCfJYHNifmblzXcBEK8mVXH/I2vLZPNe7+PTtRZ3l8=
+			YvIqyy9hmmRTYnX6OB1HkyS045pcQQJ4aBKmZoD+B8Y=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/emoji/sg0.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BjvP2mQvMKf7GO558WbBxjSV8yY=
-			</data>
-			<key>hash2</key>
-			<data>
-			/cb0pjBx1GtyBd/++NsP2cfVGWCQ8p/qCl5W4PPrvtE=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/emoji/sg031.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2967,11 +2952,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+leNCsKVCxhyC+98TWVl+gAC9qg=
+			oxUGx91tl+gS5Ylo1hkzlRLGadc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFUzclNOXdc/QSbudUgLJvRfKg/ZuiWSU3yWbr6zf28=
+			VBcKo6Bva5ayrJvr9JAbWgOAaQk/Jx07h2mL8e3YFIw=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

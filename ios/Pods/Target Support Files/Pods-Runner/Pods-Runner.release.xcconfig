@@ -1,9 +1,11 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/RongCloudIM/RongCloudIM" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongChatRoom" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCustomerService" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongDiscussion" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongIMLib" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongIMLibCore" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongLocation" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongPublicService"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/shared_preferences" "${PODS_ROOT}/Headers/Public/sqflite"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences" "${PODS_CONFIGURATION_BUILD_DIR}/sqflite"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/rongcloud_im_plugin" "${PODS_ROOT}/Headers/Public/shared_preferences" "${PODS_ROOT}/Headers/Public/sqflite"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/rongcloud_im_plugin" "${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences" "${PODS_CONFIGURATION_BUILD_DIR}/sqflite"
 OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/shared_preferences/shared_preferences.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/sqflite/sqflite.modulemap"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"shared_preferences" -l"sqflite" -l"sqlite3"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"rongcloud_im_plugin" -l"shared_preferences" -l"sqflite" -l"sqlite3" -framework "RongChatRoom" -framework "RongCustomerService" -framework "RongDiscussion" -framework "RongIMLib" -framework "RongIMLibCore" -framework "RongLocation" -framework "RongPublicService"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/shared_preferences/shared_preferences.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/sqflite/sqflite.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
