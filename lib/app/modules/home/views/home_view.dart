@@ -1,12 +1,9 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
 import 'package:im/app/modules/contact/views/contact_view.dart';
 import 'package:im/app/modules/conversation/views/conversation_view.dart';
 import 'package:im/app/modules/mine/views/mine_view.dart';
 import 'package:im/app/modules/video/views/video_view.dart';
-
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -28,11 +25,7 @@ class HomeView extends GetView<HomeController> {
         () => BottomNavigationBar(
           onTap: (index) {
             controller.currentPage.value = index;
-            _pageController.animateToPage(
-              index,
-              duration: Duration(milliseconds: 100),
-              curve: Curves.easeIn,
-            );
+            _pageController.jumpToPage(index);
           },
           type: BottomNavigationBarType.fixed,
           currentIndex: controller.currentPage.value,

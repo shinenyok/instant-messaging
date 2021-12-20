@@ -48,11 +48,10 @@ class AppPages {
       page: () => MineView(),
       binding: MineBinding(),
     ),
-    GetPage(
-      name: _Paths.VIDEO,
-      page: () => VideoView(),
-      binding: VideoBinding(),
-    ),
+    // GetPage(
+    //   name: _Paths.VIDEO,
+    //   page: () => VideoView(),
+    // ),
     GetPage(
       name: _Paths.CONTACT,
       page: () => ContactView(),

@@ -9,12 +9,13 @@ class ContactView extends GetView<ContactController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('ContactView'),
-      //   centerTitle: true,
-      // ),
+      appBar: AppBar(
+        title: Text('ContactView'),
+        centerTitle: true,
+      ),
       body: ContactorView(
         title: '联系人',
+        canPop: false,
         dataList: [
           ContactorDataListData(
             name: '呵呵呵',
